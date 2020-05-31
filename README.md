@@ -16,12 +16,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ```swift 
 
-import Backtrace
+import BacktraceSwift
 
-Backtrace.backtrace(thread: Thread)->String
-Backtrace.backtraceMainThread()->String
-Backtrace.backtraceCurrentThread()->String
-Backtrace.backtraceAllThread()->[String]
+BacktraceSwift.backtrace(thread: Thread)->String
+BacktraceSwift.backtraceMainThread()->String
+BacktraceSwift.backtraceCurrentThread()->String
+BacktraceSwift.backtraceAllThread()->[String]
 ```
 
 ## Requirements
