@@ -1,8 +1,8 @@
 # Backtrace
 
-[![Version](https://img.shields.io/cocoapods/v/Backtrace.svg?style=flat)](https://cocoapods.org/pods/Backtrace)
-[![License](https://img.shields.io/cocoapods/l/Backtrace.svg?style=flat)](https://cocoapods.org/pods/Backtrace)
-[![Platform](https://img.shields.io/cocoapods/p/Backtrace.svg?style=flat)](https://cocoapods.org/pods/Backtrace)
+[![Version](https://img.shields.io/cocoapods/v/BacktraceSwift.svg?style=flat)](https://cocoapods.org/pods/BacktraceSwift)
+[![License](https://img.shields.io/cocoapods/l/BacktraceSwift.svg?style=flat)](https://cocoapods.org/pods/BacktraceSwift)
+[![Platform](https://img.shields.io/cocoapods/p/BacktraceSwift.svg?style=flat)](https://cocoapods.org/pods/BacktraceSwift)
 
 
 
