@@ -93,7 +93,6 @@ fileprivate func machThread(from thread: Thread) -> thread_t {
             var name: [Int8] = Array<Int8>(repeating: 0, count: 128)
             pthread_getname_np(p_thread, &name, name.count)
             if thread.name == String(cString: name) {
-                print("找到对应当前的mach thread: \(thread): \(machThread)")
                 return machThread
             }
         }
