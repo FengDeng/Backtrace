@@ -1,0 +1,9 @@
+use_frameworks!
+source 'git@github.com:CocoaPods/Specs.git'
+target 'Backtrace_Example' do
+  pod 'Backtrace', :path => '../'
+
+  target 'Backtrace_Tests' do
+    inherit! :search_paths
+  end
+end

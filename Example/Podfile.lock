@@ -1,0 +1,16 @@
+PODS:
+  - Backtrace (0.1.0)
+
+DEPENDENCIES:
+  - Backtrace (from `../`)
+
+EXTERNAL SOURCES:
+  Backtrace:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Backtrace: 8537d77f13edb1b30529470f5128c95aacd4d4e6
+
+PODFILE CHECKSUM: 5df48a2747efa8cb7d7583257e382a3bb05fa5b2
+
+COCOAPODS: 1.9.1
