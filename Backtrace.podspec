@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'backtrace for iOS thread.'
   s.description      = <<-DESC
-backtrace for iOS thread.
+backtrace for iOS thread with swift.
                        DESC
 
   s.homepage         = 'https://github.com/FengDeng/Backtrace'
