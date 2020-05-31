@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'Backtrace'
+  s.name             = 'BacktraceSwift'
   s.version          = '0.1.0'
   s.summary          = 'backtrace for iOS thread.'
   s.description      = <<-DESC
