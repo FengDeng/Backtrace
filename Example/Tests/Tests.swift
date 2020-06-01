@@ -1,5 +1,5 @@
 import XCTest
-import Backtrace
+import BacktraceSwift
 
 class Tests: XCTestCase {
     

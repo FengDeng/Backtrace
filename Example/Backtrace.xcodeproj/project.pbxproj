@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AAD0214DD11FF741F9C3EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		00AAD0214DD11FF741F9C3EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2EFC84E3CE9053C1021DE9E3 /* Pods-Backtrace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Backtrace_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Backtrace_Tests/Pods-Backtrace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		31ED486E22D59D8847A16420 /* Pods_Backtrace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Backtrace_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A325AF49D8373F3A093AAB /* Pods-Backtrace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Backtrace_Example.debug.xcconfig"; path = "Target Support Files/Pods-Backtrace_Example/Pods-Backtrace_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACE51AFB9204008FA782 /* Backtrace_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Backtrace_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		9F0E731C2484AC7400B90A70 /* BacktraceSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = BacktraceSwift.podspec; path = ../BacktraceSwift.podspec; sourceTree = "<group>"; };
 		AD32FCC7FEBE1467C519AFE4 /* Pods-Backtrace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Backtrace_Tests.release.xcconfig"; path = "Target Support Files/Pods-Backtrace_Tests/Pods-Backtrace_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B2EB56EE177940B5813DB984 /* Backtrace.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Backtrace.podspec; path = ../Backtrace.podspec; sourceTree = "<group>"; };
 		D9DD212A8424A65E7A899DEB /* Pods-Backtrace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Backtrace_Example.release.xcconfig"; path = "Target Support Files/Pods-Backtrace_Example/Pods-Backtrace_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EEF6F877EB332F5AE8BCA885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EEF6F877EB332F5AE8BCA885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F4D45BC4A3382D749B36CFA6 /* Pods_Backtrace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Backtrace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,7 +141,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B2EB56EE177940B5813DB984 /* Backtrace.podspec */,
+				9F0E731C2484AC7400B90A70 /* BacktraceSwift.podspec */,
 				00AAD0214DD11FF741F9C3EF /* README.md */,
 				EEF6F877EB332F5AE8BCA885 /* LICENSE */,
 			);
@@ -156,7 +156,6 @@
 				2EFC84E3CE9053C1021DE9E3 /* Pods-Backtrace_Tests.debug.xcconfig */,
 				AD32FCC7FEBE1467C519AFE4 /* Pods-Backtrace_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

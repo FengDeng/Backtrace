@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06165AFD734397C837EAA7D1BA56DE54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		06165AFD734397C837EAA7D1BA56DE54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1361A1481B4A36F6431AE26EC316DD7B /* BacktraceSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BacktraceSwift.modulemap; sourceTree = "<group>"; };
 		18C4800603958F111F5B70175F342436 /* Pods-Backtrace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		256C0135C6B9FCF89A0D6CA1D9722C8B /* Pods-Backtrace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,24 +51,24 @@
 		483AD9ED7D81067D294B926189D1F163 /* Pods-Backtrace_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Backtrace_Example.modulemap"; sourceTree = "<group>"; };
 		4D5456734350DA8E8B045D486138FC50 /* Pods-Backtrace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Example.release.xcconfig"; sourceTree = "<group>"; };
 		52772D99A9DEE0F86DCB95F36EA0543B /* BacktraceSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BacktraceSwift.debug.xcconfig; sourceTree = "<group>"; };
-		5885A1F4DFF57C7BA43555C8DB537692 /* BacktraceSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BacktraceSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5885A1F4DFF57C7BA43555C8DB537692 /* BacktraceSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BacktraceSwift.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5F68352324EB36AC496E6733DA95C747 /* Pods-Backtrace_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Backtrace_Example-umbrella.h"; sourceTree = "<group>"; };
 		60ED2F547393CDE7575C997DBB92D29D /* BacktraceSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BacktraceSwift-dummy.m"; sourceTree = "<group>"; };
 		621596DA1BCE9522D095892485BAACA6 /* Pods-Backtrace_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Backtrace_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DFE9F5DF432DAC8895659F1515FF527 /* Pods-Backtrace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DA83B58F8A56C8E01549AC5B9EE2AAC /* BacktraceSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BacktraceSwift-prefix.pch"; sourceTree = "<group>"; };
-		8093F684EF1635F4C7DAFD48CACCD6EF /* BacktraceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BacktraceSwift.framework; path = BacktraceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8093F684EF1635F4C7DAFD48CACCD6EF /* BacktraceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BacktraceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		870B005B230B6E8F61EAE47DD0302E82 /* Pods-Backtrace_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Backtrace_Example-frameworks.sh"; sourceTree = "<group>"; };
-		981CE041346C6F281868CFA7F4142D9F /* backtrace.c */ = {isa = PBXFileReference; includeInIndex = 1; name = backtrace.c; path = Backtrace/Classes/backtrace.c; sourceTree = "<group>"; };
+		981CE041346C6F281868CFA7F4142D9F /* backtrace.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = backtrace.c; path = Backtrace/Classes/backtrace.c; sourceTree = "<group>"; };
 		98A86DB64D0AB28B30CE1D8614E3EF43 /* Pods-Backtrace_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Backtrace_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A4B4B4E83985F032F0AEC22DA8F7A8C /* BacktraceSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BacktraceSwift.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6EF90A10AB41C00D306BF9309545ED9 /* Pods-Backtrace_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Backtrace_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AB4FF9BD5E8F8570CFFA05ECC5092543 /* Pods_Backtrace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Backtrace_Example.framework; path = "Pods-Backtrace_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4FF9BD5E8F8570CFFA05ECC5092543 /* Pods_Backtrace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Backtrace_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15330F922C4837DA7B35A1CC4303BB1 /* Pods-Backtrace_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Backtrace_Example-Info.plist"; sourceTree = "<group>"; };
 		B2ADB29E1EEB0A69180A64171267990F /* Pods-Backtrace_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Backtrace_Example-dummy.m"; sourceTree = "<group>"; };
-		B86EF2DF8786EADDA61458B6FC765097 /* Pods_Backtrace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Backtrace_Tests.framework; path = "Pods-Backtrace_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC551A98B95DF452D16D113007DA0BBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B86EF2DF8786EADDA61458B6FC765097 /* Pods_Backtrace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Backtrace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC551A98B95DF452D16D113007DA0BBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CDF857E21CEDAED20B45F257AB0B8B01 /* Pods-Backtrace_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Backtrace_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D45993165393A47F4FC1D08301A7CB09 /* Pods-Backtrace_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Backtrace_Tests-dummy.m"; sourceTree = "<group>"; };
 		F751BEFACA6BADE696C88540BB2B1402 /* BacktraceSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BacktraceSwift-umbrella.h"; sourceTree = "<group>"; };
@@ -664,8 +664,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
