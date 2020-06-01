@@ -313,11 +313,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Backtrace_Example/Pods-Backtrace_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Backtrace/Backtrace.framework",
+				"${BUILT_PRODUCTS_DIR}/BacktraceSwift/BacktraceSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Backtrace.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BacktraceSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,6 @@
+framework module BacktraceSwift {
+  umbrella header "BacktraceSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

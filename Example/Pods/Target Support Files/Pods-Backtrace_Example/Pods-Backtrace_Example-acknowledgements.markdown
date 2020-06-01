@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Backtrace
+## BacktraceSwift
 
 Copyright (c) 2020 邓锋 <raisechestnut@gmail.com>
 

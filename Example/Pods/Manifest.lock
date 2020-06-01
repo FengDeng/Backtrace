@@ -1,16 +1,16 @@
 PODS:
-  - Backtrace (0.1.0)
+  - BacktraceSwift (0.1.0)
 
 DEPENDENCIES:
-  - Backtrace (from `../`)
+  - BacktraceSwift (from `../`)
 
 EXTERNAL SOURCES:
-  Backtrace:
+  BacktraceSwift:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Backtrace: 8537d77f13edb1b30529470f5128c95aacd4d4e6
+  BacktraceSwift: 81e62e8d5096c5a6dbfdff346340ed66f1f2513b
 
-PODFILE CHECKSUM: 5df48a2747efa8cb7d7583257e382a3bb05fa5b2
+PODFILE CHECKSUM: 494109c30a6260baadd5f06b63c299e4202259a1
 
 COCOAPODS: 1.9.1

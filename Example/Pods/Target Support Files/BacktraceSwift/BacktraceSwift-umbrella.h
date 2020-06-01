@@ -12,6 +12,6 @@
 
 #import "backtrace.h"
 
-FOUNDATION_EXPORT double BacktraceVersionNumber;
-FOUNDATION_EXPORT const unsigned char BacktraceVersionString[];
+FOUNDATION_EXPORT double BacktraceSwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char BacktraceSwiftVersionString[];
 

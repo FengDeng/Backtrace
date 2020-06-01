@@ -197,10 +197,10 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Backtrace/Backtrace.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BacktraceSwift/BacktraceSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Backtrace/Backtrace.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BacktraceSwift/BacktraceSwift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

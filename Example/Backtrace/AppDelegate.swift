@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Backtrace
+import BacktraceSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,9 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        DispatchQueue.global().async {
-            print(Backtrace.backtraceAllThread())
-        }
+        print("这是系统方法的MainThreadStackSymbols")
+        print(Thread.callStackSymbols.joined(separator: "\n"))
+       print("这是Backtrace方法的MainThreadStackSymbols")
+        print(BacktraceSwift.backtraceMainThread())
         
         return true
     }

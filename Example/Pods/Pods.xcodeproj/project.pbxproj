@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AB984CA83C81E1B39CAFEE1027798D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		04F19160365050AE1EFBD041533EC563 /* Pods-Backtrace_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F68352324EB36AC496E6733DA95C747 /* Pods-Backtrace_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07DF370636D137CAD516B6A44F7F9A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		13E7E4DB24B70984257A2E16807D0EE2 /* backtrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D7ECB89289057BCCA47D1BB8526137 /* backtrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2778A369C213E23F0ABF0F6132444961 /* Pods-Backtrace_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADB29E1EEB0A69180A64171267990F /* Pods-Backtrace_Example-dummy.m */; };
-		412CEAACC83C0711C0285A58BC9EEB0A /* Backtrace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA86E53483F139E23279B6307BAE0D35 /* Backtrace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		703D87B26A4C3642109B9F9FC19201DE /* Backtrace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4762A239DF859E0560FEFEDEA7FD0 /* Backtrace-dummy.m */; };
+		21FB480678D20C72106B065AA6E9AAE2 /* Pods-Backtrace_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADB29E1EEB0A69180A64171267990F /* Pods-Backtrace_Example-dummy.m */; };
+		6199974F590304E6D7F0DF732A5F09BF /* Backtrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492DD35AE8D37EA5117AF3B5E3CE3E7 /* Backtrace.swift */; };
+		6240CFBF59DA23E1912AF75A8630782C /* Pods-Backtrace_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F68352324EB36AC496E6733DA95C747 /* Pods-Backtrace_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E83A88C9183FC7F9FD2849BD0EA8B52 /* backtrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 981CE041346C6F281868CFA7F4142D9F /* backtrace.c */; };
+		854D1D0A391AA00A2F6CE1CE2DDA8ED8 /* BacktraceSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F751BEFACA6BADE696C88540BB2B1402 /* BacktraceSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		979FA1A3927BA2E6B17829EBB462AD88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AC49A2E6C3C0A6F58315732995351891 /* Pods-Backtrace_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D45993165393A47F4FC1D08301A7CB09 /* Pods-Backtrace_Tests-dummy.m */; };
-		B75256C7C539A3EA75DDD810FB1FAE40 /* Backtrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DC8A2DCBF6D805672AD064E19712B /* Backtrace.swift */; };
-		BF8A02BE9461617102DEAB1BCDE48000 /* backtrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FD9E4A9C36A21E5DBBEB1463C8A7CED /* backtrace.c */; };
-		E601B99BC11CD11E683BB28BDBA55EAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C8961510721E2682D8217108371D415D /* backtrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 32790A25D81190B402B29766F4D9487A /* backtrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8657FAE7DB3A55EC7AE7256F97415E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EAFEAC60A1CBBF75C9AE210B60E79BFC /* BacktraceSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ED2F547393CDE7575C997DBB92D29D /* BacktraceSwift-dummy.m */; };
 		FAC2491A1FEE779630B34CBB1DD9D39E /* Pods-Backtrace_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF857E21CEDAED20B45F257AB0B8B01 /* Pods-Backtrace_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C829EE3D09DF0431054EE3D14B8BC9A /* PBXContainerItemProxy */ = {
+		3D3299CFB77EBF2436CDA2FAE350BD76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FDE708250DF16932769A0AC8C5757D6;
-			remoteInfo = Backtrace;
+			remoteGlobalIDString = 91B37B47029305BCE9D876D0BDB8769C;
+			remoteInfo = BacktraceSwift;
 		};
 		C4D3707321F668C38BE26ADA7CDE14B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -39,57 +39,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08375C52A1C1F553B540434F39BB0F81 /* Backtrace.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Backtrace.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		1369557C1FB534600AABD1DA72B45A50 /* Backtrace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Backtrace.modulemap; sourceTree = "<group>"; };
+		06165AFD734397C837EAA7D1BA56DE54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1361A1481B4A36F6431AE26EC316DD7B /* BacktraceSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BacktraceSwift.modulemap; sourceTree = "<group>"; };
 		18C4800603958F111F5B70175F342436 /* Pods-Backtrace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		256C0135C6B9FCF89A0D6CA1D9722C8B /* Pods-Backtrace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A4698BA09AAEF74F86E285D936CD449 /* BacktraceSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BacktraceSwift-Info.plist"; sourceTree = "<group>"; };
 		30FBCBB889B0DE66B9E671F6C5DB581F /* Pods-Backtrace_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Backtrace_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		336BDB113814FEE08B053F9EE30A582B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		339DC8A2DCBF6D805672AD064E19712B /* Backtrace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Backtrace.swift; path = Backtrace/Classes/Backtrace.swift; sourceTree = "<group>"; };
-		3EDC2E8EAF2FFA84780BDF7F7C8A3826 /* Backtrace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Backtrace.release.xcconfig; sourceTree = "<group>"; };
+		32790A25D81190B402B29766F4D9487A /* backtrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = backtrace.h; path = Backtrace/Classes/backtrace.h; sourceTree = "<group>"; };
+		4492DD35AE8D37EA5117AF3B5E3CE3E7 /* Backtrace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Backtrace.swift; path = Backtrace/Classes/Backtrace.swift; sourceTree = "<group>"; };
 		483AD9ED7D81067D294B926189D1F163 /* Pods-Backtrace_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Backtrace_Example.modulemap"; sourceTree = "<group>"; };
-		4BF5599FA570F5A96E2AF4CD7EF1A9B6 /* Backtrace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Backtrace-prefix.pch"; sourceTree = "<group>"; };
 		4D5456734350DA8E8B045D486138FC50 /* Pods-Backtrace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Example.release.xcconfig"; sourceTree = "<group>"; };
-		55D7ECB89289057BCCA47D1BB8526137 /* backtrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = backtrace.h; path = Backtrace/Classes/backtrace.h; sourceTree = "<group>"; };
+		52772D99A9DEE0F86DCB95F36EA0543B /* BacktraceSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BacktraceSwift.debug.xcconfig; sourceTree = "<group>"; };
+		5885A1F4DFF57C7BA43555C8DB537692 /* BacktraceSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BacktraceSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5F68352324EB36AC496E6733DA95C747 /* Pods-Backtrace_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Backtrace_Example-umbrella.h"; sourceTree = "<group>"; };
+		60ED2F547393CDE7575C997DBB92D29D /* BacktraceSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BacktraceSwift-dummy.m"; sourceTree = "<group>"; };
 		621596DA1BCE9522D095892485BAACA6 /* Pods-Backtrace_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Backtrace_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DFE9F5DF432DAC8895659F1515FF527 /* Pods-Backtrace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Backtrace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FD9E4A9C36A21E5DBBEB1463C8A7CED /* backtrace.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = backtrace.c; path = Backtrace/Classes/backtrace.c; sourceTree = "<group>"; };
+		7DA83B58F8A56C8E01549AC5B9EE2AAC /* BacktraceSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BacktraceSwift-prefix.pch"; sourceTree = "<group>"; };
+		8093F684EF1635F4C7DAFD48CACCD6EF /* BacktraceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BacktraceSwift.framework; path = BacktraceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		870B005B230B6E8F61EAE47DD0302E82 /* Pods-Backtrace_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Backtrace_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8FB4762A239DF859E0560FEFEDEA7FD0 /* Backtrace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Backtrace-dummy.m"; sourceTree = "<group>"; };
+		981CE041346C6F281868CFA7F4142D9F /* backtrace.c */ = {isa = PBXFileReference; includeInIndex = 1; name = backtrace.c; path = Backtrace/Classes/backtrace.c; sourceTree = "<group>"; };
 		98A86DB64D0AB28B30CE1D8614E3EF43 /* Pods-Backtrace_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Backtrace_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B304467B960561CCF5BB57BB7706744 /* Backtrace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Backtrace-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A4B4B4E83985F032F0AEC22DA8F7A8C /* BacktraceSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BacktraceSwift.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6EF90A10AB41C00D306BF9309545ED9 /* Pods-Backtrace_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Backtrace_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AB4FF9BD5E8F8570CFFA05ECC5092543 /* Pods_Backtrace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Backtrace_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4FF9BD5E8F8570CFFA05ECC5092543 /* Pods_Backtrace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Backtrace_Example.framework; path = "Pods-Backtrace_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15330F922C4837DA7B35A1CC4303BB1 /* Pods-Backtrace_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Backtrace_Example-Info.plist"; sourceTree = "<group>"; };
 		B2ADB29E1EEB0A69180A64171267990F /* Pods-Backtrace_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Backtrace_Example-dummy.m"; sourceTree = "<group>"; };
-		B86EF2DF8786EADDA61458B6FC765097 /* Pods_Backtrace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Backtrace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD2B2629D85DD3CF5DC505CE53864856 /* Backtrace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Backtrace.debug.xcconfig; sourceTree = "<group>"; };
-		CC83CCBD8C62198A0EBB434B9F382B38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B86EF2DF8786EADDA61458B6FC765097 /* Pods_Backtrace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Backtrace_Tests.framework; path = "Pods-Backtrace_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC551A98B95DF452D16D113007DA0BBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CDF857E21CEDAED20B45F257AB0B8B01 /* Pods-Backtrace_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Backtrace_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D45993165393A47F4FC1D08301A7CB09 /* Pods-Backtrace_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Backtrace_Tests-dummy.m"; sourceTree = "<group>"; };
-		EA86E53483F139E23279B6307BAE0D35 /* Backtrace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Backtrace-umbrella.h"; sourceTree = "<group>"; };
-		F0C8068B367A316406984C07A20C83D7 /* Backtrace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Backtrace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F751BEFACA6BADE696C88540BB2B1402 /* BacktraceSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BacktraceSwift-umbrella.h"; sourceTree = "<group>"; };
 		F7D1A05B3E4733665A32A19C170C8594 /* Pods-Backtrace_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Backtrace_Tests-Info.plist"; sourceTree = "<group>"; };
 		F8899F36E25A74B81D877754053D20EF /* Pods-Backtrace_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Backtrace_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CC59F665E5E549C294641EE457D94DE /* Frameworks */ = {
+		330D1EAD6446F13E21F67184E51E81A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AB984CA83C81E1B39CAFEE1027798D /* Foundation.framework in Frameworks */,
+				979FA1A3927BA2E6B17829EBB462AD88 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC8FD28ACAEBF75F632F536440484C03 /* Frameworks */ = {
+		C4FFB33FB2F0D27A5301B17E7A9FBA1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E601B99BC11CD11E683BB28BDBA55EAF /* Foundation.framework in Frameworks */,
+				E8657FAE7DB3A55EC7AE7256F97415E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +104,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5849DB6D86755FCE2C69333BD0FEE8 /* BacktraceSwift */ = {
+			isa = PBXGroup;
+			children = (
+				981CE041346C6F281868CFA7F4142D9F /* backtrace.c */,
+				32790A25D81190B402B29766F4D9487A /* backtrace.h */,
+				4492DD35AE8D37EA5117AF3B5E3CE3E7 /* Backtrace.swift */,
+				A4EBE804C46B1063BB6CD00DE8722C93 /* Pod */,
+				217729D84083D6186AFE1FC173DFBB00 /* Support Files */,
+			);
+			name = BacktraceSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		217729D84083D6186AFE1FC173DFBB00 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1361A1481B4A36F6431AE26EC316DD7B /* BacktraceSwift.modulemap */,
+				60ED2F547393CDE7575C997DBB92D29D /* BacktraceSwift-dummy.m */,
+				2A4698BA09AAEF74F86E285D936CD449 /* BacktraceSwift-Info.plist */,
+				7DA83B58F8A56C8E01549AC5B9EE2AAC /* BacktraceSwift-prefix.pch */,
+				F751BEFACA6BADE696C88540BB2B1402 /* BacktraceSwift-umbrella.h */,
+				52772D99A9DEE0F86DCB95F36EA0543B /* BacktraceSwift.debug.xcconfig */,
+				9A4B4B4E83985F032F0AEC22DA8F7A8C /* BacktraceSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BacktraceSwift";
+			sourceTree = "<group>";
+		};
 		23D99718573FE457901BF8A122F28971 /* Pods-Backtrace_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,28 +158,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		67A156EBDA7B19721DFA90130BE6A3AF /* Development Pods */ = {
+		33C48C587FDBDE1A2D3A71B3DB5C9A13 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C999DA025F5D69721831C56C4657362E /* Backtrace */,
+				1A5849DB6D86755FCE2C69333BD0FEE8 /* BacktraceSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7959C0BF001E2A74DE82EC915B1061C8 /* Pod */ = {
+		A4EBE804C46B1063BB6CD00DE8722C93 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				08375C52A1C1F553B540434F39BB0F81 /* Backtrace.podspec */,
-				336BDB113814FEE08B053F9EE30A582B /* LICENSE */,
-				CC83CCBD8C62198A0EBB434B9F382B38 /* README.md */,
+				5885A1F4DFF57C7BA43555C8DB537692 /* BacktraceSwift.podspec */,
+				BC551A98B95DF452D16D113007DA0BBF /* LICENSE */,
+				06165AFD734397C837EAA7D1BA56DE54 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		9473E251E1A9F841C2D62092FFDCBB26 /* Products */ = {
+		BCB4C4B3F169A3CEC551C5215593E899 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F0C8068B367A316406984C07A20C83D7 /* Backtrace.framework */,
+				8093F684EF1635F4C7DAFD48CACCD6EF /* BacktraceSwift.framework */,
 				AB4FF9BD5E8F8570CFFA05ECC5092543 /* Pods_Backtrace_Example.framework */,
 				B86EF2DF8786EADDA61458B6FC765097 /* Pods_Backtrace_Tests.framework */,
 			);
@@ -182,26 +210,13 @@
 			path = "Target Support Files/Pods-Backtrace_Tests";
 			sourceTree = "<group>";
 		};
-		C999DA025F5D69721831C56C4657362E /* Backtrace */ = {
-			isa = PBXGroup;
-			children = (
-				7FD9E4A9C36A21E5DBBEB1463C8A7CED /* backtrace.c */,
-				55D7ECB89289057BCCA47D1BB8526137 /* backtrace.h */,
-				339DC8A2DCBF6D805672AD064E19712B /* Backtrace.swift */,
-				7959C0BF001E2A74DE82EC915B1061C8 /* Pod */,
-				E364F64CF49BFCB6ACAC1CD9F222F7AA /* Support Files */,
-			);
-			name = Backtrace;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				67A156EBDA7B19721DFA90130BE6A3AF /* Development Pods */,
+				33C48C587FDBDE1A2D3A71B3DB5C9A13 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9473E251E1A9F841C2D62092FFDCBB26 /* Products */,
+				BCB4C4B3F169A3CEC551C5215593E899 /* Products */,
 				3035C6B48216A3B5F9401471ED01B98A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -212,21 +227,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E364F64CF49BFCB6ACAC1CD9F222F7AA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1369557C1FB534600AABD1DA72B45A50 /* Backtrace.modulemap */,
-				8FB4762A239DF859E0560FEFEDEA7FD0 /* Backtrace-dummy.m */,
-				9B304467B960561CCF5BB57BB7706744 /* Backtrace-Info.plist */,
-				4BF5599FA570F5A96E2AF4CD7EF1A9B6 /* Backtrace-prefix.pch */,
-				EA86E53483F139E23279B6307BAE0D35 /* Backtrace-umbrella.h */,
-				BD2B2629D85DD3CF5DC505CE53864856 /* Backtrace.debug.xcconfig */,
-				3EDC2E8EAF2FFA84780BDF7F7C8A3826 /* Backtrace.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Backtrace";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,20 +240,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD5DC9873414E778E48BAFE48ECFC3A5 /* Headers */ = {
+		8DC5D9314373517F909C575C41F1106A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F19160365050AE1EFBD041533EC563 /* Pods-Backtrace_Example-umbrella.h in Headers */,
+				6240CFBF59DA23E1912AF75A8630782C /* Pods-Backtrace_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAC4D7C8428D7DA34F261A3447AFAB36 /* Headers */ = {
+		FC950C8E3F143DB20C03255CF48928D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412CEAACC83C0711C0285A58BC9EEB0A /* Backtrace-umbrella.h in Headers */,
-				13E7E4DB24B70984257A2E16807D0EE2 /* backtrace.h in Headers */,
+				C8961510721E2682D8217108371D415D /* backtrace.h in Headers */,
+				854D1D0A391AA00A2F6CE1CE2DDA8ED8 /* BacktraceSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,39 +262,21 @@
 /* Begin PBXNativeTarget section */
 		0B7BCFFEEF42229B9ACAAE1FB4A3112D /* Pods-Backtrace_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAB65CD6487ECD8D7FB3C11F54B9527 /* Build configuration list for PBXNativeTarget "Pods-Backtrace_Example" */;
+			buildConfigurationList = F63AAABCDE20CDFEB6A3777BA8019C80 /* Build configuration list for PBXNativeTarget "Pods-Backtrace_Example" */;
 			buildPhases = (
-				AD5DC9873414E778E48BAFE48ECFC3A5 /* Headers */,
-				627DF3DCD283A937A6A687C03C14B952 /* Sources */,
-				3CC59F665E5E549C294641EE457D94DE /* Frameworks */,
-				87E34644145CF3B3F320041853CD6244 /* Resources */,
+				8DC5D9314373517F909C575C41F1106A /* Headers */,
+				280C9972FECD8C885DD1704A4C440597 /* Sources */,
+				330D1EAD6446F13E21F67184E51E81A4 /* Frameworks */,
+				7C6B7CDE2BF73E1F8CDB6D356202BA17 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				10DEBB9BAED53EE00CB65879E57F7F86 /* PBXTargetDependency */,
+				0DB245AB7B3BC8A56DD44CED2B5B657C /* PBXTargetDependency */,
 			);
 			name = "Pods-Backtrace_Example";
 			productName = "Pods-Backtrace_Example";
 			productReference = AB4FF9BD5E8F8570CFFA05ECC5092543 /* Pods_Backtrace_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2FDE708250DF16932769A0AC8C5757D6 /* Backtrace */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF66F1CB42E60736734CE88ACFE068AC /* Build configuration list for PBXNativeTarget "Backtrace" */;
-			buildPhases = (
-				CAC4D7C8428D7DA34F261A3447AFAB36 /* Headers */,
-				A54773E0AA46C21EE4A56C7B836C6D2B /* Sources */,
-				BC8FD28ACAEBF75F632F536440484C03 /* Frameworks */,
-				F971328713D62A8E13F4D0794561BECC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Backtrace;
-			productName = Backtrace;
-			productReference = F0C8068B367A316406984C07A20C83D7 /* Backtrace.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		450D1B7A29BCF8BA4C8018A2B65A017B /* Pods-Backtrace_Tests */ = {
@@ -316,6 +298,24 @@
 			productReference = B86EF2DF8786EADDA61458B6FC765097 /* Pods_Backtrace_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		91B37B47029305BCE9D876D0BDB8769C /* BacktraceSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEFC8E989C10551BE81C317D7D01BF7 /* Build configuration list for PBXNativeTarget "BacktraceSwift" */;
+			buildPhases = (
+				FC950C8E3F143DB20C03255CF48928D2 /* Headers */,
+				48CDB622B437187483098F5FB85E7CBD /* Sources */,
+				C4FFB33FB2F0D27A5301B17E7A9FBA1A /* Frameworks */,
+				9FCC88E9B580EC5F97AF826E85F5DF80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BacktraceSwift;
+			productName = BacktraceSwift;
+			productReference = 8093F684EF1635F4C7DAFD48CACCD6EF /* BacktraceSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,11 +334,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9473E251E1A9F841C2D62092FFDCBB26 /* Products */;
+			productRefGroup = BCB4C4B3F169A3CEC551C5215593E899 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FDE708250DF16932769A0AC8C5757D6 /* Backtrace */,
+				91B37B47029305BCE9D876D0BDB8769C /* BacktraceSwift */,
 				0B7BCFFEEF42229B9ACAAE1FB4A3112D /* Pods-Backtrace_Example */,
 				450D1B7A29BCF8BA4C8018A2B65A017B /* Pods-Backtrace_Tests */,
 			);
@@ -353,14 +353,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87E34644145CF3B3F320041853CD6244 /* Resources */ = {
+		7C6B7CDE2BF73E1F8CDB6D356202BA17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F971328713D62A8E13F4D0794561BECC /* Resources */ = {
+		9FCC88E9B580EC5F97AF826E85F5DF80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,32 +378,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		627DF3DCD283A937A6A687C03C14B952 /* Sources */ = {
+		280C9972FECD8C885DD1704A4C440597 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2778A369C213E23F0ABF0F6132444961 /* Pods-Backtrace_Example-dummy.m in Sources */,
+				21FB480678D20C72106B065AA6E9AAE2 /* Pods-Backtrace_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A54773E0AA46C21EE4A56C7B836C6D2B /* Sources */ = {
+		48CDB622B437187483098F5FB85E7CBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				703D87B26A4C3642109B9F9FC19201DE /* Backtrace-dummy.m in Sources */,
-				BF8A02BE9461617102DEAB1BCDE48000 /* backtrace.c in Sources */,
-				B75256C7C539A3EA75DDD810FB1FAE40 /* Backtrace.swift in Sources */,
+				7E83A88C9183FC7F9FD2849BD0EA8B52 /* backtrace.c in Sources */,
+				6199974F590304E6D7F0DF732A5F09BF /* Backtrace.swift in Sources */,
+				EAFEAC60A1CBBF75C9AE210B60E79BFC /* BacktraceSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		10DEBB9BAED53EE00CB65879E57F7F86 /* PBXTargetDependency */ = {
+		0DB245AB7B3BC8A56DD44CED2B5B657C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Backtrace;
-			target = 2FDE708250DF16932769A0AC8C5757D6 /* Backtrace */;
-			targetProxy = 2C829EE3D09DF0431054EE3D14B8BC9A /* PBXContainerItemProxy */;
+			name = BacktraceSwift;
+			target = 91B37B47029305BCE9D876D0BDB8769C /* BacktraceSwift */;
+			targetProxy = 3D3299CFB77EBF2436CDA2FAE350BD76 /* PBXContainerItemProxy */;
 		};
 		6FEE7D852048EC155896A62978886837 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -447,7 +447,103 @@
 			};
 			name = Debug;
 		};
-		60842531B368F765F28C51521225DF52 /* Release */ = {
+		18A8E0C7EEDD1A7DB7C69B82742F16E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256C0135C6B9FCF89A0D6CA1D9722C8B /* Pods-Backtrace_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Backtrace_Example/Pods-Backtrace_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Backtrace_Example/Pods-Backtrace_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3445347EFF15C1BC4524D6CD7424ECC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4B4B4E83985F032F0AEC22DA8F7A8C /* BacktraceSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BacktraceSwift/BacktraceSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BacktraceSwift/BacktraceSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BacktraceSwift/BacktraceSwift.modulemap";
+				PRODUCT_MODULE_NAME = BacktraceSwift;
+				PRODUCT_NAME = BacktraceSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51E2D91A29666263EC18938158DFB732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52772D99A9DEE0F86DCB95F36EA0543B /* BacktraceSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BacktraceSwift/BacktraceSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BacktraceSwift/BacktraceSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BacktraceSwift/BacktraceSwift.modulemap";
+				PRODUCT_MODULE_NAME = BacktraceSwift;
+				PRODUCT_NAME = BacktraceSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C414A41CC62F4BD9D3E52392DA61C9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D5456734350DA8E8B045D486138FC50 /* Pods-Backtrace_Example.release.xcconfig */;
 			buildSettings = {
@@ -480,37 +576,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		60A168D7F10C39D7F7E19ED0D8E0121A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD2B2629D85DD3CF5DC505CE53864856 /* Backtrace.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Backtrace/Backtrace-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Backtrace/Backtrace-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Backtrace/Backtrace.modulemap";
-				PRODUCT_MODULE_NAME = Backtrace;
-				PRODUCT_NAME = Backtrace;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9EF2ABC02E55CE61797907078B3CD5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -599,41 +664,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B04D509D32CB08ABC1542B575566DE7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EDC2E8EAF2FFA84780BDF7F7C8A3826 /* Backtrace.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Backtrace/Backtrace-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Backtrace/Backtrace-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Backtrace/Backtrace.modulemap";
-				PRODUCT_MODULE_NAME = Backtrace;
-				PRODUCT_NAME = Backtrace;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -701,39 +735,6 @@
 			};
 			name = Debug;
 		};
-		C6D507AC206BD97028EC54BA10A7E79A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 256C0135C6B9FCF89A0D6CA1D9722C8B /* Pods-Backtrace_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Backtrace_Example/Pods-Backtrace_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Backtrace_Example/Pods-Backtrace_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -742,6 +743,15 @@
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEFC8E989C10551BE81C317D7D01BF7 /* Build configuration list for PBXNativeTarget "BacktraceSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E2D91A29666263EC18938158DFB732 /* Debug */,
+				3445347EFF15C1BC4524D6CD7424ECC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,20 +765,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAAB65CD6487ECD8D7FB3C11F54B9527 /* Build configuration list for PBXNativeTarget "Pods-Backtrace_Example" */ = {
+		F63AAABCDE20CDFEB6A3777BA8019C80 /* Build configuration list for PBXNativeTarget "Pods-Backtrace_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6D507AC206BD97028EC54BA10A7E79A /* Debug */,
-				60842531B368F765F28C51521225DF52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF66F1CB42E60736734CE88ACFE068AC /* Build configuration list for PBXNativeTarget "Backtrace" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60A168D7F10C39D7F7E19ED0D8E0121A /* Debug */,
-				B04D509D32CB08ABC1542B575566DE7A /* Release */,
+				18A8E0C7EEDD1A7DB7C69B82742F16E3 /* Debug */,
+				7C414A41CC62F4BD9D3E52392DA61C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
